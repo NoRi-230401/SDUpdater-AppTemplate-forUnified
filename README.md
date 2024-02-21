@@ -1,5 +1,6 @@
 # SDUpdater-AppTemplate-forUnified
-app template of SD-Updater for m5stack Unified library (VsCode,  platformIO , C++ )<br>
+App template of SD-Updater for m5stack Unified library <br>
+(SD-Updater, M5Unified, VsCode, platformIO, C++, Core2)<br><br>
 VsCode + platformIO環境で SD-Updater のテンプレートとして活用できるように作成しました。<br>
 <br>
 
