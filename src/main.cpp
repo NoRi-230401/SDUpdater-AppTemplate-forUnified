@@ -1,6 +1,6 @@
 // *****************************************************
 //  SD-Updater App Template for M5Unified library
-//                           2024-02-20  by NoRi
+//                           2024-02-22  by NoRi
 // -----------------------------------------------------
 //  sample App :  "app00.bin" 
 // *****************************************************
@@ -12,7 +12,7 @@
 #define TFCARD_CS_PIN 4
 
 #define APP_NAME "app00"      // app Name
-#define APP_BIN  "app00.bin"  // app bin file-name
+#define APP_BIN  "/app00.bin" // app bin file-name
 #define TIMEOUT00 10000       // lobby countdouwn timeout : msec
 #define TIMEOUT01 20000       // lobby countdouwn timeout : msec
 void App00Disp();
@@ -27,6 +27,7 @@ void setup(void)
 
   //-- SETUP YOUR_APP --
   App00Disp();
+  Serial.println("setup done");
 }
 
 void loop(void)
